@@ -1,0 +1,120 @@
+.show{
+	border:groove#151515;
+    border-width: 3px;
+	margin: 4vh;
+}
+h2{
+	margin-left: 10vh;
+}
+h3{
+	margin-left: 10vh;
+}
+.tweet-body{
+	margin: 1vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.tweet-content{
+    display: flex;
+    flex-direction: row;
+	height: 90vh;
+	width: 100vh;
+}
+
+.comment-content{
+	display: flex;
+    flex-direction: row;
+	overflow: scroll;
+}
+
+input#comment_content{
+	width: 20vh;
+}
+
+.img{
+    width: 45vw;
+    height: 90%;
+    margin: 5vw;
+}
+
+.content{
+	width:50vh;
+	height: 45vw;
+	margin: 4vw;
+	margin-bottom: 2vw;
+	border:groove#151515;
+    border-width: 3px;
+	overflow: scroll;
+}
+
+.blank{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.comment-name{
+	display: flex;
+	flex-direction: row;
+	padding-top: 1vw;
+	font-weight: 550;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.comment-body{
+	line-height: 15px;
+	margin: 1vw;
+	margin-top: 1.5vw;
+}
+
+.icon-circle{
+	position: absolute;
+	margin-top: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 150%;
+	overflow: hidden;
+	position: relative;
+}
+
+.icon-circle img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.comment-form{
+	display: flex;
+	align-items: flex-end;
+	margin: 3vw;
+	margin-left: 10vh;
+	height:5vw;
+	width: 50vh;
+}
+
+.comment-area{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50vh;
+	border:groove#151515;
+    border-width: 3px;
+	padding-left: 3vh;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	margin-right: 3vh;
+}
+
+.comment-area a{
+	text-decoration: none;
+	color: black;
+}

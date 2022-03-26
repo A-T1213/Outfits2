@@ -1,0 +1,33 @@
+.review-new{
+        font-family: 'Times New Roman', Times, serif;
+        border:groove#fff;
+        border-width: 6px;
+        background-color:#F9ECE0;
+        color:black;
+        letter-spacing: 2px;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        align-items: center;
+        margin-top: 10vw;
+        margin-bottom: 25vw;
+        margin-right: 25vw;
+        margin-left: 25vw;
+        width: 50vw;
+        height: 45vw;
+}
+.review-new h3{
+    margin: 0;
+    margin-bottom: 6vh;
+    margin-top: 3vh;
+}
+input#review_status{
+    margin: 0;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+.review input[type="text"] {
+    width: 70vh;
+    height: 40px;
+}

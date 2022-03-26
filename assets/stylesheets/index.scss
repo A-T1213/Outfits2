@@ -1,0 +1,232 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+header h1{
+    display: contents;
+}
+
+title{
+    justify-content:center;
+}
+
+.tweet a{
+    text-decoration: none;
+    color: black;
+}
+
+.ranking a{
+    text-decoration: none;
+    color: black;
+}
+
+.index h2{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3vw;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+.index h3{
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    font-family: 'Kaushan Script', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+
+input#search{
+    position: absolute;
+    top: 10vh;
+    left: 33vw;
+    width: 35vw;
+    height: 4vh;
+    font-family: 'Times New Roman', "Font Awesome 5 Free",Times, serif;
+    font-size: 2vh;
+}
+
+.tweets-container {
+    width: 100%;
+    margin: 10vw;
+    margin-left: 3vw;
+    margin-bottom: 0vh;
+    margin-top: 5vw;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.icon-circle{
+	width: 30px;
+	height: 30px;
+	border-radius: 150%;
+	overflow: hidden;
+	position: relative;
+}
+
+.icon-circle img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.tweet {
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.user-name{
+    height: 4.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.icon-circle{
+    margin: 1vh;
+}
+
+img{
+    text-align: center;
+    margin: 0;
+    object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.console{
+    border-bottom:groove#fff;
+    border-width: 0.9px;
+}
+
+.console a{
+    margin-left: 0.3vw;
+    margin-bottom: 0.2vw;
+}
+
+.tweets-body{
+    margin-bottom: 1vw;
+    margin-left: 0.3vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vh;
+}
+
+.ranking-body{
+    margin-bottom: 1vw;
+    margin-left: 0.3vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vh;
+}
+
+.rankingindex h4{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3vw;
+    margin-left: 3vw;
+    margin-top: 5vw;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+.rankingindex h5{
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+}
+
+h6{
+    margin-left: 1.5vw;
+}
+
+.ranking-container {
+    width: 100%;
+    margin: 10vw;
+    margin-top: 5vw;
+    margin-left: 3vw;
+    margin-bottom: 5vw;
+    margin-bottom: 100px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.rannking-shell{
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin: 0px;
+}
+
+.ranking {
+    border:groove#fff;
+    border-width: 0.9px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.main-box {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text_field_tag{ 
+    font-size: 14px; 
+    border-radius: 4px; 
+}
+
+.no-reasons {
+    margin: 10vw;
+    display: flex;
+    flex-direction: row;
+    margin: 10vw;
+}
+
+.no-reasons h6{
+    position: relative;
+    left: 160px;
+    bottom: 30px;
+    color: rgb(17, 16, 16);
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.mypage img{
+    box-shadow: 8px 8px #151515;
+}
+
+.mypage{
+    margin-right: 15vw;
+    margin-left: 10vw;
+}
+
+.reviews img{
+    box-shadow: 5px 8px #151515;
+}
+
+.reviews{
+    margin-left: 15vw;
+    margin-right: 10vw;
+}
+
+
+

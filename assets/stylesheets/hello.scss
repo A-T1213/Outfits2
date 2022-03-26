@@ -1,0 +1,279 @@
+// Place all the styles related to the hello controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.content1 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.content2 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.content3 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.content4 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.content5 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.content6 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.content7 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.content8 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+
+.content9 {
+  width: 45vh;
+  height: 70vh;
+  margin: 0;
+  border:solid#fff;
+  border-width: 3px;
+}
+.slideshow {
+  list-style: none;
+  display: flex;
+  animation: loop-slide 20s infinite linear 1s both;
+}
+@keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+.content1:nth-child(1) {
+  background: url("sam.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+.content2:nth-child(2) {
+  background: url("freestocks.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+.content3:nth-child(3) {
+  background: url("austin.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+.content4:nth-child(4) {
+  background: url("alexi.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+.content5:nth-child(5) {
+  background: url("mike.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.content6:nth-child(6) {
+  background: url("brandon.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+.content7:nth-child(7) {
+  background: url("wesley.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+.content8:nth-child(8) {
+  background: url("clarisse.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.content9:nth-child(9) {
+  background: url("sule.jpg");
+  background-size: cover;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+.second-block{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 35vh;
+  background-color: #151515;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-block h1{
+  margin-top: 5vh;
+  color: #f1ecec;
+  font-family: "Hannari";
+  font-size: 3vw;
+}
+
+.second-block h2{
+  color: #f1ecec;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5vw;
+  margin-left: 0;
+}
+
+.second-block a{
+  text-decoration: none;
+  color: #f1ecec;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5vh;
+}
+
+.gnavi{
+  display: flex;
+  flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
+  margin:0 0 50px 0;
+  list-style: none;
+}
+
+.gnavi li a{
+  margin-top: 1vh;
+  display: block;
+ padding:10px 30px;
+  text-decoration: none;
+}
+
+.gnavi li{
+  margin-bottom:20px;
+}
+
+/*==================================================
+　5-3-1 中心から外に線が伸びる（下部）
+===================================*/
+
+.gnavi li a{
+  /*線の基点とするためrelativeを指定*/
+position: relative;
+}
+
+
+.gnavi li a:hover{
+color:rgb(141, 90, 207);
+}
+
+.gnavi li a::after {
+  content: '';
+  /*絶対配置で線の位置を決める*/
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  /*線の形状*/
+  width: 80%;
+  height: 2px;
+  background:rgb(141, 90, 207);;
+  /*アニメーションの指定*/
+  transition: all .3s;
+  transform: scale(0, 1);/*X方向0、Y方向1*/
+  transform-origin: center top;/*上部中央基点*/
+}
+
+/*現在地とhoverの設定*/
+.gnavi li a:hover::after {
+  transform: scale(1, 1);/*X方向にスケール拡大*/
+}
+
+.third-block{
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  background: url("haikei.jpeg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.third-block h1{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5vh;
+  border-bottom:solid#151515;
+  border-width: 2px;
+}
+
+.third-block h2{
+  text-align: center;
+  line-height: 8vh;
+  margin-top: 2vh;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 2.4vh;
+  font-weight: lighter;
+  width: 80%;
+}
+
+.fifth-block{
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  background: url("clark-street-mercantile-P3pI6xzovu0-unsplash.jpg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.forth-block{
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  background: linear-gradient(#6e6e6e, #161616);
+  align-items: center;
+  justify-content: center;
+}
+.forth-block h1{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 5vh;
+  border-bottom:solid#f1ecec;
+  border-width: 2px;
+  color: #f1ecec;
+}
+
+.forth-block h2{
+  color: #f1ecec;
+  text-align: center;
+  line-height: 8vh;
+  margin-top: 2vh;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  font-size: 2.4vh;
+  font-weight: lighter;
+  width: 80%;
+}
